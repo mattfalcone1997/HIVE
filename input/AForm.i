@@ -82,6 +82,7 @@
     coupled_variables = V
     use_xyzt = true
     expression = sin(${voltage_wfrequency}*t)*V
+    block = coil
     execute_on = timestep_end
   []
   [E]
@@ -89,6 +90,7 @@
     variable = E
     coupled_vector_variable = A
     coeff = -1
+    block = target
     execute_on = timestep_end
   []
   [B]
