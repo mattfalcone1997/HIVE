@@ -87,8 +87,8 @@
 [Executioner]
   type = Transient
   solve_type = LINEAR
-  petsc_options_iname = -pc_type
-  petsc_options_value = hypre
+  petsc_options_iname = '-pc_type -ksp_rtol'
+  petsc_options_value = 'hypre    1e-12'
   start_time = 0.0
   end_time = ${end_t}
   dt = ${delta_t}
