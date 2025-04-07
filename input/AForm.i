@@ -84,6 +84,7 @@
     expression = sin(${voltage_wfrequency}*t)*V
     block = coil
     execute_on = timestep_end
+    enable = ${visualization}
   []
   [E]
     type = VectorTimeDerivativeAux
@@ -92,12 +93,14 @@
     coeff = -1
     block = target
     execute_on = timestep_end
+    enable = ${visualization}
   []
   [B]
     type = CurlAux
     variable = B
     coupled_vector_variable = A
     execute_on = timestep_end
+    enable = ${visualization}
   []
 []
 
@@ -119,7 +122,7 @@
 []
 
 [Outputs]
-  exodus = true
+  exodus = ${visualization}
 []
 
 [MultiApps]

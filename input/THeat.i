@@ -97,7 +97,7 @@
 []
 
 [Outputs]
-  exodus = true
+  exodus = ${visualization}
   csv = true
 []
 
