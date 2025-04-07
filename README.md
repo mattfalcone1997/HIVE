@@ -80,7 +80,7 @@ coupling pipeline proceeds as follows:
    See [input/AForm.i](https://github.com/farscape-project/HIVE/blob/main/input/AForm.i).
 
     Solved for the magnetic vector potential $\mathbf{A} \in \mathcal{N}^0_I$
-    [<sup>(*)</sup>](https://defelement.com/elements/examples/tetrahedron-nedelec1-lagrange-1.html),
+    [<sup>(*)</sup>](https://defelement.com/elements/examples/tetrahedron-nedelec1-lagrange-0.html),
     everywhere in space and for each time step, with Dirichlet boundary
     conditions on the $\mathbf{n}$-oriented plane boundary of the vacuum
     chamber where the coil terminals sit, $\mathbf{A} × \mathbf{n} = 0$, and
