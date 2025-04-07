@@ -2,8 +2,10 @@
 
 [Mesh]
   type = FileMesh
-  file = ../mesh/vac_oval_coil_solid_target_coarse.e
+  file = ../mesh/vac_oval_coil_solid_target_fine.e
   second_order = true
+  parallel_type = distributed
+  uniform_refine = 1
 []
 
 [Variables]
