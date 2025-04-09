@@ -1,6 +1,6 @@
 # HIVE: Heating by Induction to Verify Extremes
 
-_Nuno Nobre and Karthikeyan Chockalingam_
+_Nuno Nobre, Josh Williams and Karthikeyan Chockalingam, STFC Hartree Centre_
 
 ###
 
