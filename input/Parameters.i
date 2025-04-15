@@ -1,6 +1,6 @@
 vacuum_permeability  = ${fparse 4e-7*pi}                      # H/m
 vacuum_reluctivity   = ${fparse 1/vacuum_permeability}        # (H/m)^-1
-vacuum_econductivity = 1                                      # S/m
+vacuum_econductivity = 1e-6                                   # S/m
 vacuum_tconductivity = 0                                      # W/(m*K)
 vacuum_density       = 0                                      # kg/m^3
 vacuum_capacity      = 0                                      # J/(kg*K)
