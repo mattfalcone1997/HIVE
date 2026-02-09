@@ -123,8 +123,8 @@
 [Executioner]
   type = Transient
   solve_type = LINEAR
-  petsc_options_iname = -pc_type
-  petsc_options_value = cholesky
+  petsc_options_iname = '-pc_type -pc_hypre_type -ksp_rtol -ksp_norm_type'
+  petsc_options_value = 'hypre    ams            1e-9      preconditioned'
   start_time = 0.0
   end_time = ${end_t_af}
   dt = ${delta_t_af}

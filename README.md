@@ -142,10 +142,6 @@ accuracy, time-to-solution and general usability.
 * Study the potential gains of solving all, but most importantly the
   $\mathbf{A}$ formulation sub-app, on the GPU simply via PETSc/hypre flags.
 
-* Add support to MOOSE for the hypre AMS preconditioner. This would allow the
-  $\mathbf{A}$ formulation sub-app to drop LU, which is relatively slow, as its
-  preconditioner.
-
 * Add support to MOOSE to impose strong boundary conditions for
   $H(\mathrm{curl})$-conforming variables. This would allow the $\mathbf{A}$
   formulation sub-app to drop the penalty-method boundary conditions it
